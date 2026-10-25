@@ -1,0 +1,5 @@
+# mcd-party-officer 仅使用 Python 标准库（urllib）实现 MCP Streamable HTTP 客户端，
+# 无需第三方依赖即可运行核心逻辑、单元测试与离线演示。
+#
+# 若你希望用 requests 替换底层传输，可取消下一行注释：
+# requests>=2.31.0

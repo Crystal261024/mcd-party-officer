@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcd-party-officer"
+version = "1.0.0"
+description = "麦算盘：基于麦当劳 MCP 的多人聚餐时间协调 + 团餐最优配单（套餐组合/优惠券/减脂热量约束/拆单下单）"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["mcdonalds", "mcp", "skill", "meal-optimizer", "coupon", "workbuddy"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://github.com/M-China/mcd-developer-innovation-challenge"
+Documentation = "https://github.com/M-China/mcd-mcp-server"
+
+[tool.setuptools.packages.find]
+include = ["mcd_party_officer*"]
